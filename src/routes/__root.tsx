@@ -10,7 +10,7 @@ import {
 
 import appCss from "../styles.css?url";
 
-const favicon = new URL("../assets/file.svg", import.meta.url).href;
+// const favicon = new URL("../assets/file.svg", import.meta.url).href;
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
@@ -87,7 +87,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         rel: "stylesheet",
         href: appCss,
       },
-      { rel: "icon", href: favicon, type: "image/png" },
+      // { rel: "icon", href: favicon, type: "image/png" },
     ],
   }),
   shellComponent: RootShell,
