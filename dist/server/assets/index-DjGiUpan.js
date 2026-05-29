@@ -9847,7 +9847,7 @@ const Toaster$1 = /* @__PURE__ */ React.forwardRef(function Toaster(props, ref) 
   );
 });
 const channels = [
-  { icon: Mail, label: "Email", value: "richardmartinez327@outlook.com", color: "text-red-400", href: "mailto:richardmartinez327@outlook.com" },
+  { icon: Mail, label: "Email", value: "", color: "text-red-400", href: "mailto:richardmartinez327@outlook.com" },
   { icon: Phone, label: "Phone", value: "+1 (202) 643-3173", color: "text-emerald-400", href: "tel:+12026433173" },
   { icon: MapPin, label: "Location", value: "Garland, Texas, US", color: "text-cyan-400", href: "#" }
 ];

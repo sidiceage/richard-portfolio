@@ -54,7 +54,8 @@ export function Contact() {
               onSubmit={(e) => {
                 e.preventDefault();
                 toast.success("Message ready! Opening your email client...");
-                window.location.href = `mailto:richardmartinez327@outlook.com?subject=Project%20Inquiry&body=From:%20${encodeURIComponent(form.name)}%20(${encodeURIComponent(form.email)})%0A%0A${encodeURIComponent(form.message)}`;
+                const body = `Name: ${form.name}\nEmail: ${form.email}\n\n${form.message}`;
+                window.location.href = `mailto:richardmartinez327@outlook.com?subject=Project%20Inquiry&body=${encodeURIComponent(body)}`;
               }}
               className="p-8 rounded-2xl bg-card border border-border space-y-5"
             >
