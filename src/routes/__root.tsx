@@ -10,7 +10,7 @@ import {
 
 import appCss from "../styles.css?url";
 
-const favicon = new URL("../assets/favicon.png", import.meta.url).href;
+const favicon = new URL("../assets/file.svg", import.meta.url).href;
 function NotFoundComponent() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-background px-4">
