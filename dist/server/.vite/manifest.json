@@ -1,0 +1,126 @@
+{
+  "E:/data/MY DATA/job_profile_richard/new/src/styles.css": {
+    "file": "assets/styles-CbYOe2Fb.css",
+    "src": "E:/data/MY DATA/job_profile_richard/new/src/styles.css"
+  },
+  "_router-oAyGKiVW.js": {
+    "file": "assets/router-oAyGKiVW.js",
+    "name": "router",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-rwvygWyP.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-CbYOe2Fb.css"
+    ]
+  },
+  "_server-rwvygWyP.js": {
+    "file": "assets/server-rwvygWyP.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "_router-oAyGKiVW.js",
+      "src/start.ts",
+      "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js"
+    ]
+  },
+  "_worker-entry-DdfnNlWi.js": {
+    "file": "assets/worker-entry-DdfnNlWi.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-rwvygWyP.js"
+    ]
+  },
+  "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js": {
+    "file": "assets/empty-plugin-adapters-BFgPZ6_d.js",
+    "name": "empty-plugin-adapters",
+    "src": "node_modules/@tanstack/start-server-core/dist/esm/empty-plugin-adapters.js",
+    "isDynamicEntry": true
+  },
+  "src/assets/moon.jpg": {
+    "file": "assets/moon-D8E-HCN2.jpg",
+    "src": "src/assets/moon.jpg"
+  },
+  "src/assets/project-1.jpg": {
+    "file": "assets/project-1-Qhs1cGia.jpg",
+    "src": "src/assets/project-1.jpg"
+  },
+  "src/assets/project-2.jpg": {
+    "file": "assets/project-2-DAFlI0Fz.jpg",
+    "src": "src/assets/project-2.jpg"
+  },
+  "src/assets/project-3.jpg": {
+    "file": "assets/project-3-2vzniTel.jpg",
+    "src": "src/assets/project-3.jpg"
+  },
+  "src/assets/project-4.jpg": {
+    "file": "assets/project-4-Cy-GvvT2.jpg",
+    "src": "src/assets/project-4.jpg"
+  },
+  "src/assets/project-5.jpg": {
+    "file": "assets/project-5-wMzV5T9_.jpg",
+    "src": "src/assets/project-5.jpg"
+  },
+  "src/assets/project-6.jpg": {
+    "file": "assets/project-6-HhvwUMGq.jpg",
+    "src": "src/assets/project-6.jpg"
+  },
+  "src/assets/richard-logo.png": {
+    "file": "assets/richard-logo-CPz2gDs-.png",
+    "src": "src/assets/richard-logo.png"
+  },
+  "src/assets/richard-portrait.png": {
+    "file": "assets/richard-portrait-BFHj8frs.png",
+    "src": "src/assets/richard-portrait.png"
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-DjGiUpan.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-rwvygWyP.js",
+      "_router-oAyGKiVW.js"
+    ],
+    "assets": [
+      "assets/richard-logo-CPz2gDs-.png",
+      "assets/richard-portrait-BFHj8frs.png",
+      "assets/moon-D8E-HCN2.jpg",
+      "assets/project-1-Qhs1cGia.jpg",
+      "assets/project-2-DAFlI0Fz.jpg",
+      "assets/project-3-2vzniTel.jpg",
+      "assets/project-4-Cy-GvvT2.jpg",
+      "assets/project-5-wMzV5T9_.jpg",
+      "assets/project-6-HhvwUMGq.jpg"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-Btn0z4i9.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-rwvygWyP.js",
+      "_worker-entry-DdfnNlWi.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-DQQNjJDo.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-DdfnNlWi.js"
+    ]
+  }
+}
